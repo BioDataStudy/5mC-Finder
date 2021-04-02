@@ -8,7 +8,17 @@ Download 5mC-Finder by
 ```
 git clone https://github.com/BioDataStudy/5mC-Finder
 ```
-
+Installation has been tested in Linux with Python 3.7.
+Since the package is written in python 3x, python3x with the pip tool must be installed.
+5mC-Finder uses the following dependencies: numpy, scipy, pandas, h5py, keras version=2.3.1, tensorflow=1.15 You can install these packages by the following commands:
+```
+pip install pandas
+pip install numpy
+pip install scipy
+pip install h5py
+pip install -v keras==2.3.1
+pip install -v tensorflow==1.15
+```
 
 # Performance
 m5U-Finder outperforms 84 conventional machine-learning predictors, with the area under curve (AUC) value greater than 0.97 in 10-fold cross-validations and independent test.
