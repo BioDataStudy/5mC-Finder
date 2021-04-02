@@ -31,7 +31,15 @@ To decipher the capability of the hierarchical representation and learning, we v
 ![image](https://github.com/BioDataStudy/5mC-Finder/blob/99a4038ca69585ac5e23dae074a9f296d66850d7/umap/Uamp_testing.png)
 
 # Usage
-m5U-Finder outperforms 84 conven-tional machine-learning predictors, with the area under curve (AUC) value greater than 0.97 in 10-fold cross-validations and independent test.
+Please cd to the 5mC-Finder/ folder which contains predict.py.
+Example: 
+```
+python predict.py -f ../testdata/testing_proteins_STY.fasta -o result_test_general.fasta
+```
+For details of other parameters, run:
+```
+python predict.py --help
+```
 
 # Citation
 Please cite the following paper for using: Deciphering the location and consensus patterns of RNA 5-methyluridine sites by deep learning. Tingting Zhang, Fangcheng Shen, Zhongming Zhao*, Haodong Xu*, Submission 2021.
