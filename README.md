@@ -11,7 +11,7 @@ m5U-Finder outperforms 84 conven-tional machine-learning predictors, with the ar
 # Interpretability
 To decipher the capability of the hierarchical representation and learning, we visualized the m5U and non-m5U sites using UMAP (Uniform Mani-fold Approximation and Projection) method based on the feature repre-sentations uncovered at different network layers. the learned features turn into more and more discriminative along the layer hierarchy, with m5U and non-m5U sites mixed at the input layer without clear boundary, culminating with a clear separation in the output layer.
 
-![image](https://github.com/BioDataStudy/5mC-Finder/blob/abca7c16beebed3b09fbba45584d146242950dc1/umap/Uamp_training.png)
+![image](https://github.com/BioDataStudy/5mC-Finder/blob/99a4038ca69585ac5e23dae074a9f296d66850d7/umap/Uamp_testing.png)
 
 # Usage
 m5U-Finder outperforms 84 conven-tional machine-learning predictors, with the area under curve (AUC) value greater than 0.97 in 10-fold cross-validations and independent test.
