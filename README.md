@@ -32,3 +32,6 @@ To decipher the capability of the hierarchical representation and learning, we v
 
 # Usage
 m5U-Finder outperforms 84 conven-tional machine-learning predictors, with the area under curve (AUC) value greater than 0.97 in 10-fold cross-validations and independent test.
+
+# Citation
+Please cite the following paper for using 5mC-Finder: xxx, xxx, Zhongming Zhao*, Haodong Xu*, , Submission 2021.
