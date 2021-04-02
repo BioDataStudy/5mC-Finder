@@ -9,7 +9,9 @@ m5U-Finder outperforms 84 conven-tional machine-learning predictors, with the ar
 ![image](https://github.com/BioDataStudy/5mC-Finder/blob/88eb55a50c08edb0a85ca75924ece71e1a6fb9ab/prediction/Slide1.jpg)
 
 # Interpretability
-m5U-Finder outperforms 84 conven-tional machine-learning predictors, with the area under curve (AUC) value greater than 0.97 in 10-fold cross-validations and independent test.
+To decipher the capability of the hierarchical representation and learning, we visualized the m5U and non-m5U sites using UMAP (Uniform Mani-fold Approximation and Projection) method based on the feature repre-sentations uncovered at different network layers. the learned features turn into more and more discriminative along the layer hierarchy, with m5U and non-m5U sites mixed at the input layer without clear boundary, culminating with a clear separation in the output layer.
+
+![image](https://github.com/BioDataStudy/5mC-Finder/blob/88eb55a50c08edb0a85ca75924ece71e1a6fb9ab/prediction/Slide1.jpg)
 
 # Usage
 m5U-Finder outperforms 84 conven-tional machine-learning predictors, with the area under curve (AUC) value greater than 0.97 in 10-fold cross-validations and independent test.
