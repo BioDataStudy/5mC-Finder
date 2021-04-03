@@ -15,11 +15,8 @@ import keras
 print('Ddeveloped with keras version 2.3.1, and current keras version: ',keras.__version__)
 
 #binding model
-model=r"C:\ChenLab_Projects\m5C\model\best_model.json"
-weight=r"C:\ChenLab_Projects\m5C\model\best_model.h5"
-
-# model="./models/best_model.json"
-# weight="./models/best_model.h5"
+model="./models/best_model.json"
+weight="./models/best_model.h5"
 
 #function to import keras NN model
 def get_model(model_name0,weight_name0):
@@ -61,8 +58,6 @@ def seq_matrix(infile):
     return header, tensor
 
 #function to prediction task
-infile = r"C:\ChenLab_Projects\m5C\data\test.fasta"
-outfile = r"C:\ChenLab_Projects\m5C\data\test_prediction.fasta"
 def prediction(infile,outfile):
     header, tensor = seq_matrix(infile)
     dnn_model = get_model(model,weight)
