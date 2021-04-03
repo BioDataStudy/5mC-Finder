@@ -31,7 +31,7 @@ To decipher the capability of the hierarchical representation and learning, we v
 ![image](https://github.com/BioDataStudy/5mC-Finder/blob/99a4038ca69585ac5e23dae074a9f296d66850d7/umap/Uamp_testing.png)
 
 # Usage
-Please cd to the 5mC-Finder/ folder which contains predict.py.
+Please cd to the 5mC-Finder/prediction/ folder which contains predict.py.
 Example: 
 ```
 python predict.py -f ../testdata/test.fasta -o ../testdata/test_result.txt
