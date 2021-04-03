@@ -34,7 +34,7 @@ To decipher the capability of the hierarchical representation and learning, we v
 Please cd to the 5mC-Finder/ folder which contains predict.py.
 Example: 
 ```
-python predict.py -f ../testdata/testing_proteins_STY.fasta -o result_test_general.fasta
+python predict.py -f ../testdata/test.fasta -o ../testdata/test_result.txt
 ```
 For details of other parameters, run:
 ```
