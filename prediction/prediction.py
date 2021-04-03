@@ -4,8 +4,6 @@ Created on Fri Apr  2 17:06:09 2021
 
 @author: HXu8
 """
-
-
 import os,sys
 import argparse
 import numpy as np
