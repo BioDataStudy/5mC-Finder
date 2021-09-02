@@ -47,4 +47,4 @@ python predict.py --help
 ```
 
 # Citation
-Please cite the following paper for using: Deciphering the location and consensus patterns of RNA 5-methyluridine sites by deep learning. Tingting Zhang, Fangcheng Shen, Zhongming Zhao*, Haodong Xu*, Submission 2021.
+Please cite the following paper for using: Deciphering the location and consensus patterns of RNA 5-methyluridine sites by deep learning. Submission 2021.
