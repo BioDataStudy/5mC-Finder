@@ -30,6 +30,11 @@ To decipher the capability of the hierarchical representation and learning, we v
 
 ![image](https://github.com/BioDataStudy/5mC-Finder/blob/99a4038ca69585ac5e23dae074a9f296d66850d7/umap/Uamp_testing.png)
 
+# Motifs
+The kernels in the first convolutional layer distinguish important weight matrices over the input sequences to recognize significant patterns. Therefore, we decoded all filters in the convolutional layer of 5mU-Finder and converted them into motifs. As a result, a total of 135 informative motifs were characterized, and several novel RNA mo-tifs with the consensus sequence were discovered, such as CxGGGAxC and GGGxUCG. The clustering analysis of the informative motifs re-vealed their enrichments and higher distributions in positive instances .
+
+![image](https://github.com/BioDataStudy/5mC-Finder/blob/main/motif/Figure%202.jpg)
+
 # Usage
 Please cd to the 5mC-Finder/prediction/ folder which contains predict.py.
 Example: 
